@@ -3,7 +3,6 @@
 # Copyright (C) 2023 Apple Inc. All Rights Reserved.
 #
 
-from functools import partial
 import numpy as np
 import numpy.typing as npt
 import pandas as pd
@@ -11,7 +10,6 @@ import scipy
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import seaborn as sns
-from deprecation import deprecated
 
 from matplotlib.collections import LineCollection
 from sklearn.ensemble import BaggingRegressor

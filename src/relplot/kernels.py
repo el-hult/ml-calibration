@@ -3,15 +3,9 @@
 # Copyright (C) 2023 Apple Inc. All Rights Reserved.
 #
 
-import warnings
 import numpy as np
 import scipy as sp
-from deprecation import deprecated
-from . import config
 
-
-warnings.filterwarnings("default", category=DeprecationWarning,
-                                   module="relplot.kernel_utils")
 
 def kernel_cross(f, g, kernel_func):
     """
